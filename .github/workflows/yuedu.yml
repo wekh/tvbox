@@ -1,0 +1,35 @@
+name: Fetch Yuedu Data
+
+on:
+  schedule:
+    - cron: "0 0 */7 * *"
+  workflow_dispatch:
+
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run Python script
+      run: python .github/workflows/yuedu.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add yuedu.txt
+        git commit -m "Update yuedu.txt" --allow-empty
+        git push

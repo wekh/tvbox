@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSON解析</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Set body height to 100% of viewport height */
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        flex: 1;
+    }
+    .box {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        overflow: auto;
+    }
+    .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+    。button-group {
+        display: flex;
+        align-items: center;
+    }
+    button {
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 0 5px; /* Adjust the margin between buttons */
+    }
+    textarea {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+<div class="top-row">
+    <div class="button-group">
+        <button id="parseButton">解析</button>
+        <button id="copyButton">复制</button>
+    </div>
+</div>
+<div class="container">
+    <div class="box" style="width: 45%;">
+        <textarea id="originalTextarea" rows="5" cols="50"></textarea>
+    </div>
+    <div class="box" style="width: 45%;">
+        <textarea id="parsedTextarea" rows="5" cols="50" readonly></textarea>
+    </div>
+</div>
+<script>
+    const originalTextarea = document.getElementById('originalTextarea');
+    const parsedTextarea = document.getElementById('parsedTextarea');
+    const parseButton = document.getElementById('parseButton');
+    const copyButton = document.getElementById('copyButton');
+
+    parseButton.addEventListener('click', () => {
+        try {
+            const jsonData = JSON.parse(originalTextarea.value);
+            // 替换lives项内容
+            if (jsonData && jsonData.lives) {
+                jsonData.lives = [
+                    {
+                        "name": "IPV6",
+                        "type": 0,
+                        "url": "https://wekh.top/tvbox/iptv.txt",
+                        "playerType": 1,
+                        "ua": "okhttp/3.15"
+                    }
+                ];
+            }
+            parsedTextarea.value = JSON.stringify(jsonData, null, 2);
+        } catch (error) {
+            parsedTextarea.value = '无法解析JSON数据';
+        }
+    });
+
+    copyButton.addEventListener('click', () => {
+        parsedTextarea.select();
+        document.execCommand('copy');
+    });
+</script>
+</body>
+</html>
