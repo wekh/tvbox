@@ -1,7 +1,7 @@
 import requests
 
 # 获取数据
-url = "https://gh.wwkh.eu.org/https:/raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan"
+url = "https://gh.wekh.eu.org/https:/raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan"
 response = requests.get(url)
 data = response.text
 
