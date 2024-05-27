@@ -5,7 +5,7 @@ import json
 
 headers = {'User-Agent': 'okhttp/3.15'}
 
-url = 'http://饭太硬.top/tv'
+url = 'http://www.饭太硬.com/tv/'
 try:
     response = requests.get(url, headers=headers)
     response.raise_for_status()  # 抛出异常，处理错误的响应状态
