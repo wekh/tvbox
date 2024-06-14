@@ -1,5 +1,5 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1717839432492/fan.txt;md5;d8f21fa84abb5ff61d7f1a0b7a78ec26",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718274776381/fan.txt;md5;5ee96d541532306c3acc8c0fc229acbf",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -120,6 +120,16 @@
       "changeable": 1
     },
     {
+      "key": "文采",
+      "name": "💮文采┃秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "贱贱",
       "name": "🐭贱贱┃P2P",
       "type": 3,
@@ -131,10 +141,11 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
     },
     {
-      "key": "蛋蛋",
-      "name": "🍓蛋蛋┃多线",
+      "key": "可可",
+      "name": "👻可可┃多线",
       "type": 3,
-      "api": "csp_Cddys",
+      "api": "csp_Kekys",
+      "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -172,12 +183,20 @@
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "可可",
-      "name": "👻可可┃多线",
+      "key": "蛋蛋",
+      "name": "🍓蛋蛋┃多线",
       "type": 3,
-      "api": "csp_Kekys",
-      "timeout": 15,
+      "api": "csp_Cddys",
       "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "比特",
+      "name": "🍄比特┃秒播",
+      "type": 3,
+      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -189,15 +208,6 @@
       "api": "csp_NanGua",
       "timeout": 15,
       "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "比特",
-      "name": "🍄比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -239,15 +249,6 @@
       "name": "🚌巴士┃动漫",
       "type": 3,
       "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Ying",
-      "name": "💮樱花┃动漫",
-      "type": 3,
-      "api": "csp_Ying",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
