@@ -14,6 +14,10 @@ with open("iptv.txt", "w") as file:
             response.raise_for_status()  # 检查请求是否成功
             playlist = response.text
 
+            # 检查最后一行是否为空行
+            if not playlist.endswith('\n'):
+                playlist += '\n'
+
             # 写入 URL 内容
             file.write(playlist)
 
