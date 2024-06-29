@@ -2,6 +2,7 @@
 运城新闻综合,http://live.0359tv.com/lsdream/ss4Lj11/1000/live.m3u8?zshanxd
 运城公共频道,http://live.0359tv.com/lsdream/t667aTY/1000/live.m3u8?zshanxd
 运城科技教育,http://live.0359tv.com/lsdream/p5eq48m/1000/live.m3u8?zshanxd
+
 电影轮播,#genre#
 穿越火线赛事,http://159.75.85.63:35455/huya/660101
 电影_星爷,http://159.75.85.63:35455/huya/11342412
