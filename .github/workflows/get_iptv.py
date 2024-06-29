@@ -1,7 +1,10 @@
 import requests
 
 # 获取直播源链接
-url = "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+urls = [
+    "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+    "https://gh.wekh.eu.org/https:/raw.githubusercontent.com/wekh/tvbox/main/itv.txt"
+]
 response = requests.get(url)
 playlist = response.text
 
