@@ -1,4 +1,3 @@
-# Content from https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u
 测试频道,#genre#
 湖南卫视,https://pi.0472.org/itv/hnwsH265.m3u8
 湖南卫视,https://pi.0472.org/hls/hunws.m3u8
@@ -154,7 +153,6 @@ newtv金牌综艺,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/
 
 
 
-# Content from https://gh.wekh.eu.org/https:/raw.githubusercontent.com/wekh/tvbox/main/itv.txt
 运城频道,#genre#
 运城新闻综合,http://live.0359tv.com/lsdream/ss4Lj11/1000/live.m3u8?zshanxd
 运城公共频道,http://live.0359tv.com/lsdream/t667aTY/1000/live.m3u8?zshanxd
