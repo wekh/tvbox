@@ -14,9 +14,8 @@ with open("iptv.txt", "w") as file:
             response.raise_for_status()  # 检查请求是否成功
             playlist = response.text
 
-            # 写入分隔符和 URL 内容
-            file.write(f"# Content from {url}\n")
-            file.write(playlist + "\n\n")
+            # 写入 URL 内容
+            file.write(playlist + "\n\n")  # 加两个换行符作为分隔符
 
             print(f"内容已成功从 {url} 保存到 iptv.txt 文件中")
 
