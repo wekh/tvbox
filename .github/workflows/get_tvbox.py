@@ -10,6 +10,10 @@ def fix_json(json_str):
     fixed_json_str = re.sub(r'(?<=\{|,)\s*([a-zA-Z_][a-zA-Z0-9_-]*)\s*:', r'"\1":', json_str)
     return fixed_json_str
 
+def remove_comments(json_str):
+    # 使用正则表达式移除单行注释
+    return re.sub(r'//.*', '', json_str)
+
 url = 'http://www.饭太硬.com/tv/'
 try:
     response = requests.get(url, headers=headers)
@@ -28,12 +32,8 @@ try:
         print("解析后的内容：")
         print(content)
 
-        # 排除注释内容
-        content_lines = content.split('\n')
-        cleaned_content = [line for line in content_lines if not line.strip().startswith("//")]
-
-        # 合并处理后的内容
-        cleaned_content_text = '\n'.join(cleaned_content)
+        # 移除注释内容
+        cleaned_content_text = remove_comments(content)
 
         try:
             # 尝试解析内容
