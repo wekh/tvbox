@@ -5,6 +5,11 @@ import json
 
 headers = {'User-Agent': 'okhttp/3.15'}
 
+def fix_json(json_str):
+    # 使用正则表达式查找未用双引号括起来的属性名，并自动添加双引号
+    fixed_json_str = re.sub(r'(?<=\{|,)\s*([a-zA-Z_][a-zA-Z0-9_-]*)\s*:', r'"\1":', json_str)
+    return fixed_json_str
+
 url = 'http://www.饭太硬.com/tv/'
 try:
     response = requests.get(url, headers=headers)
@@ -30,8 +35,19 @@ try:
         # 合并处理后的内容
         cleaned_content_text = '\n'.join(cleaned_content)
 
-        # 解析内容
-        data = json.loads(cleaned_content_text)
+        try:
+            # 尝试解析内容
+            data = json.loads(cleaned_content_text)
+        except json.JSONDecodeError as e:
+            print("JSON解析失败，尝试自动修复...")
+            # 尝试自动修复JSON字符串
+            fixed_content_text = fix_json(cleaned_content_text)
+            try:
+                data = json.loads(fixed_content_text)
+                print("自动修复成功!")
+            except json.JSONDecodeError as ex:
+                print("自动修复失败:", ex)
+                raise ex
 
         # 修改内容
         data["lives"] = [
