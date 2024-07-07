@@ -14,6 +14,13 @@ def remove_comments(json_str):
     # 使用正则表达式移除单行注释
     return re.sub(r'//.*', '', json_str)
 
+def clean_json(json_str):
+    # 移除注释
+    json_str = remove_comments(json_str)
+    # 修复未用双引号括起来的属性名
+    json_str = fix_json(json_str)
+    return json_str
+
 url = 'http://www.饭太硬.com/tv/'
 try:
     response = requests.get(url, headers=headers)
@@ -32,8 +39,8 @@ try:
         print("解析后的内容：")
         print(content)
 
-        # 移除注释内容
-        cleaned_content_text = remove_comments(content)
+        # 清理JSON字符串
+        cleaned_content_text = clean_json(content)
 
         try:
             # 尝试解析内容
