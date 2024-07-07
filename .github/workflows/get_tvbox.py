@@ -30,8 +30,22 @@ try:
         # 合并处理后的内容
         cleaned_content_text = '\n'.join(cleaned_content)
 
-        # 解析内容
-        data = json.loads(cleaned_content_text)
+        try:
+            # 解析内容
+            data = json.loads(cleaned_content_text)
+        except json.JSONDecodeError as e:
+            print("JSON解析错误:", e)
+            print("尝试自动修复JSON格式...")
+
+            # 尝试移除所有注释并重新解析
+            cleaned_content_text = re.sub(r'//.*', '', cleaned_content_text)  # 移除单行注释
+            cleaned_content_text = re.sub(r'/\*.*?\*/', '', cleaned_content_text, flags=re.DOTALL)  # 移除多行注释
+
+            try:
+                data = json.loads(cleaned_content_text)
+            except json.JSONDecodeError as e:
+                print("修复后仍然无法解析JSON:", e)
+                raise
 
         # 修改内容
         data["lives"] = [
