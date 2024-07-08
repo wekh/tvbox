@@ -44,6 +44,9 @@ try:
         cleaned_content_text = re.sub(r'(?<=[}\]])\s*(?=[{\[])', ',', cleaned_content_text)
         cleaned_content_text = re.sub(r',\s*(?=[}\]])', '', cleaned_content_text)
 
+        # 进一步修复双引号问题
+        cleaned_content_text = re.sub(r'""https', '"https', cleaned_content_text)
+
         # 打印清理后的内容（调试用）
         print("清理后的内容：")
         print(cleaned_content_text)
