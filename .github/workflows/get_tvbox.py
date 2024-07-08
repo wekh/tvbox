@@ -31,7 +31,11 @@ try:
         cleaned_content_text = '\n'.join(cleaned_content)
 
         # 解析内容
-        data = json.loads(cleaned_content_text)
+        try:
+            data = json.loads(cleaned_content_text)
+        except json.JSONDecodeError as e:
+            print("JSON解析错误:", e)
+            exit(1)
 
         # 修改内容
         data["lives"] = [
