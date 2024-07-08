@@ -30,10 +30,11 @@ try:
         cleaned_content = []
         for line in content_lines:
             # 移除注释
-            if '//' in line:
-                line = line.split('//')[0]
+            line = re.sub(r'//.*', '', line)
             # 修复属性名和字符串值没有用双引号括起来的问题
             line = re.sub(r'([a-zA-Z_]\w*):', r'"\1":', line)
+            # 修复字符串中的特殊字符
+            line = line.replace('“', '"').replace('”', '"')
             cleaned_content.append(line)
 
         # 合并处理后的内容
