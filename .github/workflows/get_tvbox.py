@@ -39,6 +39,10 @@ try:
         # 合并处理后的内容
         cleaned_content_text = '\n'.join(cleaned_content)
 
+        # 修复缺失的逗号
+        cleaned_content_text = re.sub(r'(?<=[}\]])\s*(?=[{\[])', ',', cleaned_content_text)
+        cleaned_content_text = re.sub(r',\s*(?=[}\]])', '', cleaned_content_text)
+
         # 解析JSON内容
         data = json.loads(cleaned_content_text)
 
