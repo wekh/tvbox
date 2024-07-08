@@ -29,8 +29,8 @@ try:
         content_lines = content.split('\n')
         cleaned_content = []
         for line in content_lines:
-            # 移除注释
-            line = re.sub(r'//.*', '', line)
+            # 移除行内注释
+            line = re.sub(r'//.*', '', line).strip()
             # 修复属性名和字符串值没有用双引号括起来的问题
             line = re.sub(r'([a-zA-Z_]\w*):', r'"\1":', line)
             # 修复字符串中的特殊字符
