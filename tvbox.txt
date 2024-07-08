@@ -1,5 +1,5 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720286340532/fan.txt;md5;078b93811264de157d3e38f18f11de8c",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720443281334/fan.txt;md5;1f219c086d40a58a296fbc3b262e7b7d",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -157,7 +157,7 @@
       "name": "⏮️低端┃外剧",
       "type": 3,
       "api": "csp_Ddrk",
-      "playerType": 2,
+      "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -169,7 +169,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "playerType": 1,
+      "playerType": "1",
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
     },
@@ -345,7 +345,7 @@
       "name": "📽️网红┃直播",
       "type": 3,
       "api": "csp_Yj1211",
-      "playerType": 1,
+      "playerType": "1",
       "searchable": 0,
       "quickSearch": 1,
       "changeable": 0
@@ -360,7 +360,7 @@
         "type": "rect",
         "ratio": 1.755
       },
-      "playerType": 1,
+      "playerType": "1",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -375,7 +375,7 @@
         "type": "rect",
         "ratio": 1.755
       },
-      "playerType": 1,
+      "playerType": "1",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -629,7 +629,7 @@
     {
       "name": "IPV6",
       "type": 0,
-      "url": "https://wekh.top/tvbox/iptv.txt",
+      "url": "https://tv.wekh.top/iptv.txt",
       "playerType": 1,
       "ua": "okhttp/3.15"
     }
