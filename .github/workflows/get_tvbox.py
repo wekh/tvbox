@@ -7,8 +7,9 @@ headers = {'User-Agent': 'okhttp/3.15'}
 
 url = 'http://www.饭太硬.com/tv/'
 try:
+    # 发送HTTP GET请求
     response = requests.get(url, headers=headers)
-    response.raise_for_status()  # 抛出异常，处理错误的响应状态
+    response.raise_for_status()  # 如果响应状态码不是200，引发异常
 
     # 使用正则表达式查找匹配项
     match = re.search(r'[A-Za-z0]{8}\*\*(.*)', response.text)
@@ -16,10 +17,11 @@ try:
     if not match:
         print("在响应文本中未找到匹配项。")
     else:
+        # 提取并解码base64编码的内容
         result = match.group(1)
         content = base64.b64decode(result).decode('utf-8')
 
-        # 调试输出解析后的内容
+        # 打印解析后的内容（调试用）
         print("解析后的内容：")
         print(content)
 
@@ -30,22 +32,8 @@ try:
         # 合并处理后的内容
         cleaned_content_text = '\n'.join(cleaned_content)
 
-        try:
-            # 解析内容
-            data = json.loads(cleaned_content_text)
-        except json.JSONDecodeError as e:
-            print("JSON解析错误:", e)
-            print("尝试自动修复JSON格式...")
-
-            # 尝试移除所有注释并重新解析
-            cleaned_content_text = re.sub(r'//.*', '', cleaned_content_text)  # 移除单行注释
-            cleaned_content_text = re.sub(r'/\*.*?\*/', '', cleaned_content_text, flags=re.DOTALL)  # 移除多行注释
-
-            try:
-                data = json.loads(cleaned_content_text)
-            except json.JSONDecodeError as e:
-                print("修复后仍然无法解析JSON:", e)
-                raise
+        # 解析JSON内容
+        data = json.loads(cleaned_content_text)
 
         # 修改内容
         data["lives"] = [
@@ -69,5 +57,9 @@ try:
 
 except requests.RequestException as e:
     print("请求失败:", e)
+except json.JSONDecodeError as je:
+    print("JSON解析失败:", je)
+except base64.binascii.Error as be:
+    print("Base64解码失败:", be)
 except Exception as ex:
     print("发生错误:", ex)
