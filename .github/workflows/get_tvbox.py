@@ -25,9 +25,16 @@ try:
         print("解析后的内容：")
         print(content)
 
-        # 排除注释内容
+        # 排除注释内容并修复JSON格式
         content_lines = content.split('\n')
-        cleaned_content = [line for line in content_lines if not line.strip().startswith("//")]
+        cleaned_content = []
+        for line in content_lines:
+            # 移除注释
+            if '//' in line:
+                line = line.split('//')[0]
+            # 修复属性名和字符串值没有用双引号括起来的问题
+            line = re.sub(r'([a-zA-Z_]\w*):', r'"\1":', line)
+            cleaned_content.append(line)
 
         # 合并处理后的内容
         cleaned_content_text = '\n'.join(cleaned_content)
