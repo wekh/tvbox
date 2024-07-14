@@ -1,4 +1,4 @@
-name: Get Live Streams
+name: Get Live m3u
 
 on:
   schedule:
