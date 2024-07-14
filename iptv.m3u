@@ -271,93 +271,178 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63806fb631afe/index.m
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63806f81c8eb5/index.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
 http://livear.cgtn.com/1000a/prog_index.m3u8
-运城频道,#genre#
-运城新闻综合,http://live.0359tv.com/lsdream/ss4Lj11/1000/live.m3u8?zshanxd
-运城公共频道,http://live.0359tv.com/lsdream/t667aTY/1000/live.m3u8?zshanxd
-运城科技教育,http://live.0359tv.com/lsdream/p5eq48m/1000/live.m3u8?zshanxd
-
-电影轮播,#genre#
-穿越火线赛事,http://159.75.85.63:35455/huya/660101
-电影_星爷,http://159.75.85.63:35455/huya/11342412
-电影_英叔,http://159.75.85.63:35455/huya/11342421
-电影_发哥,http://159.75.85.63:35455/huya/11342387
-电影_成龙,http://159.75.85.63:35455/huya/11342386
-电影_王晶,http://159.75.85.63:35455/huya/11602058
-电影_沈腾,http://159.75.85.63:35455/huya/11601968
-电影_黄渤,http://159.75.85.63:35455/huya/11352876
-电影_强森,http://159.75.85.63:35455/huya/21059581
-电影_漫威,http://159.75.85.63:35455/huya/11602034
-电影_宇宙,http://159.75.85.63:35455/huya/11342428
-电影_怪兽,http://159.75.85.63:35455/huya/21059577
-电影_武侠,http://159.75.85.63:35455/huya/11342427
-电影_警匪,http://159.75.85.63:35455/huya/11352886
-电影_罪犯,http://159.75.85.63:35455/huya/11352962
-电影_枪战,http://159.75.85.63:35455/huya/21059579
-电影_海盗,http://159.75.85.63:35455/huya/21059595
-电影_赛车,http://159.75.85.63:35455/huya/11279247
-电影_推荐,http://159.75.85.63:35455/huya/11602041
-电影_救援,http://159.75.85.63:35455/huya/21059594
-电影_热血,http://159.75.85.63:35455/huya/11352934
-电影_盗墓,http://159.75.85.63:35455/huya/21059552
-电影_贺岁,http://159.75.85.63:35455/huya/11601971
-电影_玄幻,http://159.75.85.63:35455/huya/11342414
-电影_谍战,http://159.75.85.63:35455/huya/21059585
-电影_战争,http://159.75.85.63:35455/huya/21059592
-电影_喜剧,http://159.75.85.63:35455/huya/11352877
-电影_港片,http://159.75.85.63:35455/huya/11602043
-电影_国产,http://159.75.85.63:35455/huya/11352973
-电影_周星星,http://159.75.85.63:35455/huya/11336587
-电影_李连杰,http://159.75.85.63:35455/huya/11342390
-电影_洪金宝,http://159.75.85.63:35455/huya/11279251
-电影_梁家辉,http://159.75.85.63:35455/huya/11342429
-电影_许冠英,http://159.75.85.63:35455/huya/11601972
-电影_刘德华,http://159.75.85.63:35455/huya/11342424
-电影_斯坦森,http://159.75.85.63:35455/huya/21059588
-电影_小鬼头,http://159.75.85.63:35455/huya/11352963
-电影_八点档,http://159.75.85.63:35455/huya/880261
-电影_蜘蛛侠,http://159.75.85.63:35455/huya/21059599
-电影_贺岁片,http://159.75.85.63:35455/huya/11601986
-电影_功夫片,http://159.75.85.63:35455/huya/11352941
-电影_黑帮片,http://159.75.85.63:35455/huya/11336719
-电影_丧尸片,http://159.75.85.63:35455/huya/21059578
-电影_灾难片,http://159.75.85.63:35455/huya/11602075
-电影_谍战片,http://159.75.85.63:35455/huya/21059587
-电影_战争片,http://159.75.85.63:35455/huya/21059574
-电影_犯罪片,http://159.75.85.63:35455/huya/11352974
-电影_古装片,http://159.75.85.63:35455/huya/11336590
-电影_高分动作,http://159.75.85.63:35455/huya/11352884
-电影_动作电影,http://159.75.85.63:35455/huya/11602077
-电影_搞笑喜剧,http://159.75.85.63:35455/huya/11342423
-电影_喜剧专场,http://159.75.85.63:35455/huya/11602044
-电影_欢笑影院,http://159.75.85.63:35455/huya/11352894
-电影_不挤影院,http://159.75.85.63:35455/huya/11352897
-电影_国产悬疑,http://159.75.85.63:35455/huya/11342395
-电影_快意江湖,http://159.75.85.63:35455/huya/11342435
-电影_黑帮斗争,http://159.75.85.63:35455/huya/11342419
-电影_古墓系列,http://159.75.85.63:35455/huya/11352913
-电影_嫣然影厅,http://159.75.85.63:35455/huya/11601977
-电影_女神系列,http://159.75.85.63:35455/huya/11336571
-电影_经典女神,http://159.75.85.63:35455/huya/11352909
-电影_许氏三杰,http://159.75.85.63:35455/huya/11602033
-电影_经典港片,http://159.75.85.63:35455/huya/11352965
-电影_镖行天下,http://159.75.85.63:35455/huya/11352969
-电影_高能反转,http://159.75.85.63:35455/huya/11352887
-电影_喜乐影院,http://159.75.85.63:35455/huya/21059580
-电影_蘑菇影厅,http://159.75.85.63:35455/huya/11601981
-电影_搞笑恐怖,http://159.75.85.63:35455/huya/11601960
-电影_死神来了,http://159.75.85.63:35455/huya/11352903
-电影_变形金刚,http://159.75.85.63:35455/huya/21059596
-电影_怪兽系列,http://159.75.85.63:35455/huya/21059554
-搞笑_陈翔六点半,http://159.75.85.63:35455/huya/11274154
-剧集_老三国,http://159.75.85.63:35455/huya/11602081
-剧集_新三国,http://159.75.85.63:35455/huya/11352944
-剧集_新水浒,http://159.75.85.63:35455/huya/11342384
-剧集_纪晓岚,http://159.75.85.63:35455/huya/11342396
-剧集_庆余年,http://159.75.85.63:35455/huya/11352960
-剧集_雍正王朝,http://159.75.85.63:35455/huya/11342439
-剧集_士兵突击,http://159.75.85.63:35455/huya/11342430
-剧集_爱情公寓,http://159.75.85.63:35455/huya/11336726
-剧集_家有儿女,http://159.75.85.63:35455/huya/11352872
-剧集_武林外传,http://159.75.85.63:35455/huya/21059598
-剧集_地下交通站,http://159.75.85.63:35455/huya/11342433
-剧集_邻里一家亲,http://159.75.85.63:35455/huya/11342426
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+#EXTINF:-1 tvg-name="运城新闻综合" tvg-logo="https://live.fanmingming.com/tv/运城新闻综合.png" group-title="运城频道",运城新闻综合
+http://live.0359tv.com/lsdream/ss4Lj11/1000/live.m3u8?zshanxd
+#EXTINF:-1 tvg-name="运城公共频道" tvg-logo="https://live.fanmingming.com/tv/运城公共频道.png" group-title="运城频道",运城公共频道
+http://live.0359tv.com/lsdream/t667aTY/1000/live.m3u8?zshanxd
+#EXTINF:-1 tvg-name="运城科技教育" tvg-logo="https://live.fanmingming.com/tv/运城科技教育.png" group-title="运城频道",运城科技教育
+http://live.0359tv.com/lsdream/p5eq48m/1000/live.m3u8?zshanxd
+#EXTINF:-1 tvg-name="穿越火线赛事" tvg-logo="https://live.fanmingming.com/tv/穿越火线赛事.png" group-title="电影轮播",穿越火线赛事
+http://159.75.85.63:35455/huya/660101
+#EXTINF:-1 tvg-name="电影_星爷" tvg-logo="https://live.fanmingming.com/tv/电影_星爷.png" group-title="电影轮播",电影_星爷
+http://159.75.85.63:35455/huya/11342412
+#EXTINF:-1 tvg-name="电影_英叔" tvg-logo="https://live.fanmingming.com/tv/电影_英叔.png" group-title="电影轮播",电影_英叔
+http://159.75.85.63:35455/huya/11342421
+#EXTINF:-1 tvg-name="电影_发哥" tvg-logo="https://live.fanmingming.com/tv/电影_发哥.png" group-title="电影轮播",电影_发哥
+http://159.75.85.63:35455/huya/11342387
+#EXTINF:-1 tvg-name="电影_成龙" tvg-logo="https://live.fanmingming.com/tv/电影_成龙.png" group-title="电影轮播",电影_成龙
+http://159.75.85.63:35455/huya/11342386
+#EXTINF:-1 tvg-name="电影_王晶" tvg-logo="https://live.fanmingming.com/tv/电影_王晶.png" group-title="电影轮播",电影_王晶
+http://159.75.85.63:35455/huya/11602058
+#EXTINF:-1 tvg-name="电影_沈腾" tvg-logo="https://live.fanmingming.com/tv/电影_沈腾.png" group-title="电影轮播",电影_沈腾
+http://159.75.85.63:35455/huya/11601968
+#EXTINF:-1 tvg-name="电影_黄渤" tvg-logo="https://live.fanmingming.com/tv/电影_黄渤.png" group-title="电影轮播",电影_黄渤
+http://159.75.85.63:35455/huya/11352876
+#EXTINF:-1 tvg-name="电影_强森" tvg-logo="https://live.fanmingming.com/tv/电影_强森.png" group-title="电影轮播",电影_强森
+http://159.75.85.63:35455/huya/21059581
+#EXTINF:-1 tvg-name="电影_漫威" tvg-logo="https://live.fanmingming.com/tv/电影_漫威.png" group-title="电影轮播",电影_漫威
+http://159.75.85.63:35455/huya/11602034
+#EXTINF:-1 tvg-name="电影_宇宙" tvg-logo="https://live.fanmingming.com/tv/电影_宇宙.png" group-title="电影轮播",电影_宇宙
+http://159.75.85.63:35455/huya/11342428
+#EXTINF:-1 tvg-name="电影_怪兽" tvg-logo="https://live.fanmingming.com/tv/电影_怪兽.png" group-title="电影轮播",电影_怪兽
+http://159.75.85.63:35455/huya/21059577
+#EXTINF:-1 tvg-name="电影_武侠" tvg-logo="https://live.fanmingming.com/tv/电影_武侠.png" group-title="电影轮播",电影_武侠
+http://159.75.85.63:35455/huya/11342427
+#EXTINF:-1 tvg-name="电影_警匪" tvg-logo="https://live.fanmingming.com/tv/电影_警匪.png" group-title="电影轮播",电影_警匪
+http://159.75.85.63:35455/huya/11352886
+#EXTINF:-1 tvg-name="电影_罪犯" tvg-logo="https://live.fanmingming.com/tv/电影_罪犯.png" group-title="电影轮播",电影_罪犯
+http://159.75.85.63:35455/huya/11352962
+#EXTINF:-1 tvg-name="电影_枪战" tvg-logo="https://live.fanmingming.com/tv/电影_枪战.png" group-title="电影轮播",电影_枪战
+http://159.75.85.63:35455/huya/21059579
+#EXTINF:-1 tvg-name="电影_海盗" tvg-logo="https://live.fanmingming.com/tv/电影_海盗.png" group-title="电影轮播",电影_海盗
+http://159.75.85.63:35455/huya/21059595
+#EXTINF:-1 tvg-name="电影_赛车" tvg-logo="https://live.fanmingming.com/tv/电影_赛车.png" group-title="电影轮播",电影_赛车
+http://159.75.85.63:35455/huya/11279247
+#EXTINF:-1 tvg-name="电影_推荐" tvg-logo="https://live.fanmingming.com/tv/电影_推荐.png" group-title="电影轮播",电影_推荐
+http://159.75.85.63:35455/huya/11602041
+#EXTINF:-1 tvg-name="电影_救援" tvg-logo="https://live.fanmingming.com/tv/电影_救援.png" group-title="电影轮播",电影_救援
+http://159.75.85.63:35455/huya/21059594
+#EXTINF:-1 tvg-name="电影_热血" tvg-logo="https://live.fanmingming.com/tv/电影_热血.png" group-title="电影轮播",电影_热血
+http://159.75.85.63:35455/huya/11352934
+#EXTINF:-1 tvg-name="电影_盗墓" tvg-logo="https://live.fanmingming.com/tv/电影_盗墓.png" group-title="电影轮播",电影_盗墓
+http://159.75.85.63:35455/huya/21059552
+#EXTINF:-1 tvg-name="电影_贺岁" tvg-logo="https://live.fanmingming.com/tv/电影_贺岁.png" group-title="电影轮播",电影_贺岁
+http://159.75.85.63:35455/huya/11601971
+#EXTINF:-1 tvg-name="电影_玄幻" tvg-logo="https://live.fanmingming.com/tv/电影_玄幻.png" group-title="电影轮播",电影_玄幻
+http://159.75.85.63:35455/huya/11342414
+#EXTINF:-1 tvg-name="电影_谍战" tvg-logo="https://live.fanmingming.com/tv/电影_谍战.png" group-title="电影轮播",电影_谍战
+http://159.75.85.63:35455/huya/21059585
+#EXTINF:-1 tvg-name="电影_战争" tvg-logo="https://live.fanmingming.com/tv/电影_战争.png" group-title="电影轮播",电影_战争
+http://159.75.85.63:35455/huya/21059592
+#EXTINF:-1 tvg-name="电影_喜剧" tvg-logo="https://live.fanmingming.com/tv/电影_喜剧.png" group-title="电影轮播",电影_喜剧
+http://159.75.85.63:35455/huya/11352877
+#EXTINF:-1 tvg-name="电影_港片" tvg-logo="https://live.fanmingming.com/tv/电影_港片.png" group-title="电影轮播",电影_港片
+http://159.75.85.63:35455/huya/11602043
+#EXTINF:-1 tvg-name="电影_国产" tvg-logo="https://live.fanmingming.com/tv/电影_国产.png" group-title="电影轮播",电影_国产
+http://159.75.85.63:35455/huya/11352973
+#EXTINF:-1 tvg-name="电影_周星星" tvg-logo="https://live.fanmingming.com/tv/电影_周星星.png" group-title="电影轮播",电影_周星星
+http://159.75.85.63:35455/huya/11336587
+#EXTINF:-1 tvg-name="电影_李连杰" tvg-logo="https://live.fanmingming.com/tv/电影_李连杰.png" group-title="电影轮播",电影_李连杰
+http://159.75.85.63:35455/huya/11342390
+#EXTINF:-1 tvg-name="电影_洪金宝" tvg-logo="https://live.fanmingming.com/tv/电影_洪金宝.png" group-title="电影轮播",电影_洪金宝
+http://159.75.85.63:35455/huya/11279251
+#EXTINF:-1 tvg-name="电影_梁家辉" tvg-logo="https://live.fanmingming.com/tv/电影_梁家辉.png" group-title="电影轮播",电影_梁家辉
+http://159.75.85.63:35455/huya/11342429
+#EXTINF:-1 tvg-name="电影_许冠英" tvg-logo="https://live.fanmingming.com/tv/电影_许冠英.png" group-title="电影轮播",电影_许冠英
+http://159.75.85.63:35455/huya/11601972
+#EXTINF:-1 tvg-name="电影_刘德华" tvg-logo="https://live.fanmingming.com/tv/电影_刘德华.png" group-title="电影轮播",电影_刘德华
+http://159.75.85.63:35455/huya/11342424
+#EXTINF:-1 tvg-name="电影_斯坦森" tvg-logo="https://live.fanmingming.com/tv/电影_斯坦森.png" group-title="电影轮播",电影_斯坦森
+http://159.75.85.63:35455/huya/21059588
+#EXTINF:-1 tvg-name="电影_小鬼头" tvg-logo="https://live.fanmingming.com/tv/电影_小鬼头.png" group-title="电影轮播",电影_小鬼头
+http://159.75.85.63:35455/huya/11352963
+#EXTINF:-1 tvg-name="电影_八点档" tvg-logo="https://live.fanmingming.com/tv/电影_八点档.png" group-title="电影轮播",电影_八点档
+http://159.75.85.63:35455/huya/880261
+#EXTINF:-1 tvg-name="电影_蜘蛛侠" tvg-logo="https://live.fanmingming.com/tv/电影_蜘蛛侠.png" group-title="电影轮播",电影_蜘蛛侠
+http://159.75.85.63:35455/huya/21059599
+#EXTINF:-1 tvg-name="电影_贺岁片" tvg-logo="https://live.fanmingming.com/tv/电影_贺岁片.png" group-title="电影轮播",电影_贺岁片
+http://159.75.85.63:35455/huya/11601986
+#EXTINF:-1 tvg-name="电影_功夫片" tvg-logo="https://live.fanmingming.com/tv/电影_功夫片.png" group-title="电影轮播",电影_功夫片
+http://159.75.85.63:35455/huya/11352941
+#EXTINF:-1 tvg-name="电影_黑帮片" tvg-logo="https://live.fanmingming.com/tv/电影_黑帮片.png" group-title="电影轮播",电影_黑帮片
+http://159.75.85.63:35455/huya/11336719
+#EXTINF:-1 tvg-name="电影_丧尸片" tvg-logo="https://live.fanmingming.com/tv/电影_丧尸片.png" group-title="电影轮播",电影_丧尸片
+http://159.75.85.63:35455/huya/21059578
+#EXTINF:-1 tvg-name="电影_灾难片" tvg-logo="https://live.fanmingming.com/tv/电影_灾难片.png" group-title="电影轮播",电影_灾难片
+http://159.75.85.63:35455/huya/11602075
+#EXTINF:-1 tvg-name="电影_谍战片" tvg-logo="https://live.fanmingming.com/tv/电影_谍战片.png" group-title="电影轮播",电影_谍战片
+http://159.75.85.63:35455/huya/21059587
+#EXTINF:-1 tvg-name="电影_战争片" tvg-logo="https://live.fanmingming.com/tv/电影_战争片.png" group-title="电影轮播",电影_战争片
+http://159.75.85.63:35455/huya/21059574
+#EXTINF:-1 tvg-name="电影_犯罪片" tvg-logo="https://live.fanmingming.com/tv/电影_犯罪片.png" group-title="电影轮播",电影_犯罪片
+http://159.75.85.63:35455/huya/11352974
+#EXTINF:-1 tvg-name="电影_古装片" tvg-logo="https://live.fanmingming.com/tv/电影_古装片.png" group-title="电影轮播",电影_古装片
+http://159.75.85.63:35455/huya/11336590
+#EXTINF:-1 tvg-name="电影_高分动作" tvg-logo="https://live.fanmingming.com/tv/电影_高分动作.png" group-title="电影轮播",电影_高分动作
+http://159.75.85.63:35455/huya/11352884
+#EXTINF:-1 tvg-name="电影_动作电影" tvg-logo="https://live.fanmingming.com/tv/电影_动作电影.png" group-title="电影轮播",电影_动作电影
+http://159.75.85.63:35455/huya/11602077
+#EXTINF:-1 tvg-name="电影_搞笑喜剧" tvg-logo="https://live.fanmingming.com/tv/电影_搞笑喜剧.png" group-title="电影轮播",电影_搞笑喜剧
+http://159.75.85.63:35455/huya/11342423
+#EXTINF:-1 tvg-name="电影_喜剧专场" tvg-logo="https://live.fanmingming.com/tv/电影_喜剧专场.png" group-title="电影轮播",电影_喜剧专场
+http://159.75.85.63:35455/huya/11602044
+#EXTINF:-1 tvg-name="电影_欢笑影院" tvg-logo="https://live.fanmingming.com/tv/电影_欢笑影院.png" group-title="电影轮播",电影_欢笑影院
+http://159.75.85.63:35455/huya/11352894
+#EXTINF:-1 tvg-name="电影_不挤影院" tvg-logo="https://live.fanmingming.com/tv/电影_不挤影院.png" group-title="电影轮播",电影_不挤影院
+http://159.75.85.63:35455/huya/11352897
+#EXTINF:-1 tvg-name="电影_国产悬疑" tvg-logo="https://live.fanmingming.com/tv/电影_国产悬疑.png" group-title="电影轮播",电影_国产悬疑
+http://159.75.85.63:35455/huya/11342395
+#EXTINF:-1 tvg-name="电影_快意江湖" tvg-logo="https://live.fanmingming.com/tv/电影_快意江湖.png" group-title="电影轮播",电影_快意江湖
+http://159.75.85.63:35455/huya/11342435
+#EXTINF:-1 tvg-name="电影_黑帮斗争" tvg-logo="https://live.fanmingming.com/tv/电影_黑帮斗争.png" group-title="电影轮播",电影_黑帮斗争
+http://159.75.85.63:35455/huya/11342419
+#EXTINF:-1 tvg-name="电影_古墓系列" tvg-logo="https://live.fanmingming.com/tv/电影_古墓系列.png" group-title="电影轮播",电影_古墓系列
+http://159.75.85.63:35455/huya/11352913
+#EXTINF:-1 tvg-name="电影_嫣然影厅" tvg-logo="https://live.fanmingming.com/tv/电影_嫣然影厅.png" group-title="电影轮播",电影_嫣然影厅
+http://159.75.85.63:35455/huya/11601977
+#EXTINF:-1 tvg-name="电影_女神系列" tvg-logo="https://live.fanmingming.com/tv/电影_女神系列.png" group-title="电影轮播",电影_女神系列
+http://159.75.85.63:35455/huya/11336571
+#EXTINF:-1 tvg-name="电影_经典女神" tvg-logo="https://live.fanmingming.com/tv/电影_经典女神.png" group-title="电影轮播",电影_经典女神
+http://159.75.85.63:35455/huya/11352909
+#EXTINF:-1 tvg-name="电影_许氏三杰" tvg-logo="https://live.fanmingming.com/tv/电影_许氏三杰.png" group-title="电影轮播",电影_许氏三杰
+http://159.75.85.63:35455/huya/11602033
+#EXTINF:-1 tvg-name="电影_经典港片" tvg-logo="https://live.fanmingming.com/tv/电影_经典港片.png" group-title="电影轮播",电影_经典港片
+http://159.75.85.63:35455/huya/11352965
+#EXTINF:-1 tvg-name="电影_镖行天下" tvg-logo="https://live.fanmingming.com/tv/电影_镖行天下.png" group-title="电影轮播",电影_镖行天下
+http://159.75.85.63:35455/huya/11352969
+#EXTINF:-1 tvg-name="电影_高能反转" tvg-logo="https://live.fanmingming.com/tv/电影_高能反转.png" group-title="电影轮播",电影_高能反转
+http://159.75.85.63:35455/huya/11352887
+#EXTINF:-1 tvg-name="电影_喜乐影院" tvg-logo="https://live.fanmingming.com/tv/电影_喜乐影院.png" group-title="电影轮播",电影_喜乐影院
+http://159.75.85.63:35455/huya/21059580
+#EXTINF:-1 tvg-name="电影_蘑菇影厅" tvg-logo="https://live.fanmingming.com/tv/电影_蘑菇影厅.png" group-title="电影轮播",电影_蘑菇影厅
+http://159.75.85.63:35455/huya/11601981
+#EXTINF:-1 tvg-name="电影_搞笑恐怖" tvg-logo="https://live.fanmingming.com/tv/电影_搞笑恐怖.png" group-title="电影轮播",电影_搞笑恐怖
+http://159.75.85.63:35455/huya/11601960
+#EXTINF:-1 tvg-name="电影_死神来了" tvg-logo="https://live.fanmingming.com/tv/电影_死神来了.png" group-title="电影轮播",电影_死神来了
+http://159.75.85.63:35455/huya/11352903
+#EXTINF:-1 tvg-name="电影_变形金刚" tvg-logo="https://live.fanmingming.com/tv/电影_变形金刚.png" group-title="电影轮播",电影_变形金刚
+http://159.75.85.63:35455/huya/21059596
+#EXTINF:-1 tvg-name="电影_怪兽系列" tvg-logo="https://live.fanmingming.com/tv/电影_怪兽系列.png" group-title="电影轮播",电影_怪兽系列
+http://159.75.85.63:35455/huya/21059554
+#EXTINF:-1 tvg-name="搞笑_陈翔六点半" tvg-logo="https://live.fanmingming.com/tv/搞笑_陈翔六点半.png" group-title="电影轮播",搞笑_陈翔六点半
+http://159.75.85.63:35455/huya/11274154
+#EXTINF:-1 tvg-name="剧集_老三国" tvg-logo="https://live.fanmingming.com/tv/剧集_老三国.png" group-title="电影轮播",剧集_老三国
+http://159.75.85.63:35455/huya/11602081
+#EXTINF:-1 tvg-name="剧集_新三国" tvg-logo="https://live.fanmingming.com/tv/剧集_新三国.png" group-title="电影轮播",剧集_新三国
+http://159.75.85.63:35455/huya/11352944
+#EXTINF:-1 tvg-name="剧集_新水浒" tvg-logo="https://live.fanmingming.com/tv/剧集_新水浒.png" group-title="电影轮播",剧集_新水浒
+http://159.75.85.63:35455/huya/11342384
+#EXTINF:-1 tvg-name="剧集_纪晓岚" tvg-logo="https://live.fanmingming.com/tv/剧集_纪晓岚.png" group-title="电影轮播",剧集_纪晓岚
+http://159.75.85.63:35455/huya/11342396
+#EXTINF:-1 tvg-name="剧集_庆余年" tvg-logo="https://live.fanmingming.com/tv/剧集_庆余年.png" group-title="电影轮播",剧集_庆余年
+http://159.75.85.63:35455/huya/11352960
+#EXTINF:-1 tvg-name="剧集_雍正王朝" tvg-logo="https://live.fanmingming.com/tv/剧集_雍正王朝.png" group-title="电影轮播",剧集_雍正王朝
+http://159.75.85.63:35455/huya/11342439
+#EXTINF:-1 tvg-name="剧集_士兵突击" tvg-logo="https://live.fanmingming.com/tv/剧集_士兵突击.png" group-title="电影轮播",剧集_士兵突击
+http://159.75.85.63:35455/huya/11342430
+#EXTINF:-1 tvg-name="剧集_爱情公寓" tvg-logo="https://live.fanmingming.com/tv/剧集_爱情公寓.png" group-title="电影轮播",剧集_爱情公寓
+http://159.75.85.63:35455/huya/11336726
+#EXTINF:-1 tvg-name="剧集_家有儿女" tvg-logo="https://live.fanmingming.com/tv/剧集_家有儿女.png" group-title="电影轮播",剧集_家有儿女
+http://159.75.85.63:35455/huya/11352872
+#EXTINF:-1 tvg-name="剧集_武林外传" tvg-logo="https://live.fanmingming.com/tv/剧集_武林外传.png" group-title="电影轮播",剧集_武林外传
+http://159.75.85.63:35455/huya/21059598
+#EXTINF:-1 tvg-name="剧集_地下交通站" tvg-logo="https://live.fanmingming.com/tv/剧集_地下交通站.png" group-title="电影轮播",剧集_地下交通站
+http://159.75.85.63:35455/huya/11342433
+#EXTINF:-1 tvg-name="剧集_邻里一家亲" tvg-logo="https://live.fanmingming.com/tv/剧集_邻里一家亲.png" group-title="电影轮播",剧集_邻里一家亲
+http://159.75.85.63:35455/huya/11342426
