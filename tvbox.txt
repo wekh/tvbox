@@ -1,10 +1,10 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722468799367/fan.txt;md5;a4fe2a2e54c40cb2491e3fbe31afa3e5",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722550044078/fan.txt;md5;d295ec4dcf9a78f8441996009a88ecb0",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
       "key": "豆豆",
-      "name": "全接口智能过滤广告",
+      "name": "非会员阿狸原提速",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -84,8 +84,16 @@
       "api": "csp_Appxdys",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0
+    },
+    {
+      "key": "煤球",
+      "name": "🍓煤球┃多线",
+      "type": 3,
+      "api": "csp_Appmq",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "专线",
