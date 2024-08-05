@@ -3,15 +3,15 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "wekh",
-      "name": "🚀叨观荐影┃新片",
-      "type": 3,
+      "key": "点播源",
+      "name": "wekh",
+      "type": 0,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
-      "ext": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=detail"
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+      "playUrl": "https://ys.wekh.eu.org/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
     {
       "key": "豆豆",
       "name": "非会员阿狸提速",
