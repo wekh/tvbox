@@ -7,7 +7,7 @@
       "name": "wekh",
       "type": 3,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
-      "playUrl": "https://ys.wekh.eu.org/",
+      "ext": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=detail",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
