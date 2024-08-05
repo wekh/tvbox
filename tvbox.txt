@@ -3,9 +3,9 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "点播源",
+      "key": "wekh",
       "name": "wekh",
-      "type": 0,
+      "type": 3,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
       "playUrl": "https://ys.wekh.eu.org/",
       "searchable": 1,
