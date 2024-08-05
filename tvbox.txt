@@ -7,10 +7,10 @@
       "name": "wekh",
       "type": 3,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
-      "ext": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=detail",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://ys.wekh.eu.org/"
     },
     {
       "key": "豆豆",
