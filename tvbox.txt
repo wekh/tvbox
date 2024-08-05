@@ -6,7 +6,7 @@
       "key": "wekh",
       "name": "wekh",
       "type": 3,
-      "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
+      "api": "/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
