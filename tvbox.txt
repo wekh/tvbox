@@ -3,14 +3,14 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "wekh",
+      "key": "点播源",
       "name": "wekh",
-      "type": 3,
-      "api": "https://ys.wekh.eu.org/api.php/provide/vod/?ac=list",
+      "type": 1,
+      "api": "https://ys.wekh.eu.org/api.php/provide/website/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
+      "quickSearch": 0,
+      "filterable": 1
+    }
     {
       "key": "豆豆",
       "name": "非会员阿狸提速",
