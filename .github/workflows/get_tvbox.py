@@ -43,9 +43,8 @@ try:
                 "ua": "okhttp/3.15"
             }
         ]
-        
-        # 修改 sites 内容
-        data["sites"] = [
+        # 替换 "sites": [ 部分
+        new_sites_content = '''"sites": [
             {
                 "key": "mfys",
                 "name": "🍁免费┃不卡",
@@ -55,7 +54,13 @@ try:
                 "quickSearch": 1,
                 "filterable": 1
             }
-        ]
+        ]'''
+
+        # 使用正则表达式找到并替换 "sites": [ 到下一个 ] 的内容
+        cleaned_content_text = re.sub(r'"sites": \[.*?\]', new_sites_content, cleaned_content_text, flags=re.DOTALL)
+
+        # 解析内容
+        data = json.loads(cleaned_content_text)
 
         # 将修改后的内容转换为 JSON 字符串，并指定 ensure_ascii=False 以确保汉字和表情符号正常显示
         modified_content = json.dumps(data, indent=2, ensure_ascii=False)
