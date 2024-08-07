@@ -5,18 +5,11 @@
     {
       "key": "mfys",
       "name": "免费影视",
-      "type": 3,
+      "type": 1,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "短剧"
-      ]
+      "filterable": 1
     },
     {
       "key": "豆豆",
