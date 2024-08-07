@@ -33,6 +33,17 @@ try:
         # 解析内容
         data = json.loads(cleaned_content_text)
 
+        # 添加新字典项到'sites'数组开头处
+         new_site_data ={
+           "key": "mfys",
+           "name": "🍁免费┃不卡",
+           "type": 1,
+           "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
+           "searchable": 1,
+           "quickSearch": 1,
+          "filterable": 1 
+          }，
+        
         # 修改内容
         data["lives"] = [
             {
