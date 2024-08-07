@@ -33,17 +33,6 @@ try:
         # 解析内容
         data = json.loads(cleaned_content_text)
 
-        # 添加新字典项到'sites'数组开头处
-         new_site_data ={
-           "key": "mfys",
-           "name": "🍁免费┃不卡",
-           "type": 1,
-           "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
-           "searchable": 1,
-           "quickSearch": 1,
-          "filterable": 1 
-          }，
-        
         # 修改内容
         data["lives"] = [
             {
@@ -54,6 +43,21 @@ try:
                 "ua": "okhttp/3.15"
             }
         ]
+
+        # 添加新数据到 "sites" 的开头
+        if "sites" in data:
+            new_site = {
+                "key": "mfys",
+                "name": "🍁免费┃不卡",
+                "type": 1,
+                "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
+                "searchable": 1,
+                "quickSearch": 1,
+                "filterable": 1
+            }，
+            data["sites"].insert(0, new_site)
+        else:
+            print('"sites" 键不在数据中')
 
         # 将修改后的内容转换为 JSON 字符串，并指定 ensure_ascii=False 以确保汉字和表情符号正常显示
         modified_content = json.dumps(data, indent=2, ensure_ascii=False)
