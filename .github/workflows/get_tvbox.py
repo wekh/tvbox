@@ -31,7 +31,7 @@ try:
         cleaned_content_text = '\n'.join(cleaned_content)
 
         # 替换 "sites": [ 部分
-        new_sites_content = '''"sites": [
+        new_sites_content = '''  "sites": [
     {
       "key": "mfys",
       "name": "🍁免费┃不卡",
@@ -40,12 +40,20 @@ try:
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    }
+    }，
   ]'''
+
+        # 调试输出清理后的内容
+        print("清理后的内容：")
+        print(cleaned_content_text)
 
         # 使用正则表达式找到并替换 "sites": [ 到下一个 ] 的内容
         if '"sites": [' in cleaned_content_text:
             cleaned_content_text = re.sub(r'"sites": \[.*?\]', new_sites_content, cleaned_content_text, flags=re.DOTALL)
+            print("替换后的内容：")
+            print(cleaned_content_text)
+        else:
+            print("未找到 '\"sites\": [' 需要替换。")
 
         # 解析内容
         data = json.loads(cleaned_content_text)
