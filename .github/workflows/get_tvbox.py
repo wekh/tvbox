@@ -54,7 +54,7 @@ try:
                 "searchable": 1,
                 "quickSearch": 1,
                 "filterable": 1
-            }，
+            },
             data["sites"].insert(0, new_site)
         else:
             print('"sites" 键不在数据中')
