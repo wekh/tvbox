@@ -44,7 +44,8 @@ try:
   ]'''
 
         # 使用正则表达式找到并替换 "sites": [ 到下一个 ] 的内容
-        cleaned_content_text = re.sub(r'"sites": \[.*?\]', new_sites_content, cleaned_content_text, flags=re.DOTALL)
+        if '"sites": [' in cleaned_content_text:
+            cleaned_content_text = re.sub(r'"sites": \[.*?\]', new_sites_content, cleaned_content_text, flags=re.DOTALL)
 
         # 解析内容
         data = json.loads(cleaned_content_text)
