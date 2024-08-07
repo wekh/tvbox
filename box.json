@@ -3,7 +3,7 @@
     {
       "key": "mfys",
       "name": "免费影视",
-      "type": 3,
+      "type": 1,
       "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
