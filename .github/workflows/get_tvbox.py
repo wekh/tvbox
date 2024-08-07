@@ -43,6 +43,19 @@ try:
                 "ua": "okhttp/3.15"
             }
         ]
+        
+        # 修改 sites 内容
+        data["sites"] = [
+            {
+                "key": "mfys",
+                "name": "🍁免费┃不卡",
+                "type": 1,
+                "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
+                "searchable": 1,
+                "quickSearch": 1,
+                "filterable": 1
+            }
+        ]
 
         # 将修改后的内容转换为 JSON 字符串，并指定 ensure_ascii=False 以确保汉字和表情符号正常显示
         modified_content = json.dumps(data, indent=2, ensure_ascii=False)
