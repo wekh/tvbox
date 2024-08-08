@@ -51,8 +51,8 @@ try:
                 data["sites"] = [item for sublist in data["sites"] for item in sublist]
             
             new_site = {
-                "key": "mfys",
-                "name": "🍁免费┃不卡",
+                "key": "枫叶",
+                "name": "🍁枫叶┃不卡",
                 "type": 1,
                 "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
                 "searchable": 1,
