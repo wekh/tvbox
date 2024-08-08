@@ -46,6 +46,10 @@ try:
 
         # 添加新数据到 "sites" 的开头
         if "sites" in data:
+            # 如果 "sites" 是一个包含列表的列表，则将其转换为单一的列表
+            if isinstance(data["sites"], list) and isinstance(data["sites"][0], list):
+                data["sites"] = [item for sublist in data["sites"] for item in sublist]
+            
             new_site = {
                 "key": "mfys",
                 "name": "🍁免费┃不卡",
@@ -54,7 +58,7 @@ try:
                 "searchable": 1,
                 "quickSearch": 1,
                 "filterable": 1
-            },
+            }
             data["sites"].insert(0, new_site)
         else:
             print('"sites" 键不在数据中')
