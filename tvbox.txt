@@ -2,17 +2,15 @@
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722987884531/fan.txt;md5;dc0bb7989c050bc9aba22fae0c49348b",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    [
-      {
-        "key": "mfys",
-        "name": "🍁免费┃不卡",
-        "type": 1,
-        "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1
-      }
-    ],
+    {
+      "key": "mfys",
+      "name": "🍁免费┃不卡",
+      "type": 1,
+      "api": "https://ys.wekh.eu.org/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "豆豆",
       "name": "添加网盘自定排序",
